@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:State/State.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AbstractFactory/AbstractFactory.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Observer/Observer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Builder/Builder.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Facade/Facade.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TemplateMethod/TemplateMethod.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Prototype/Prototype.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FactoryMethod/FactoryMethod.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ProxyPattern/ProxyPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Decorator/Decorator.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Strategy/Strategy.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FactoryPattern/FactoryPattern.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FED115BB1D2E32C900BB2941 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FED115BA1D2E32C900BB2941 /* main.m */; };
+		FED115C61D2E486F00BB2941 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FED115C51D2E486F00BB2941 /* Person.m */; };
+		FED115CC1D2E48DA00BB2941 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = FED115CB1D2E48DA00BB2941 /* Student.m */; };
+		FED115CF1D2E48FE00BB2941 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = FED115CE1D2E48FE00BB2941 /* Teacher.m */; };
+		FED115D21D2E4EA600BB2941 /* StudentFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FED115D11D2E4EA600BB2941 /* StudentFactory.m */; };
+		FED115D51D2E4EB700BB2941 /* TeacherFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FED115D41D2E4EB700BB2941 /* TeacherFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FED115B51D2E32C900BB2941 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FED115B71D2E32C900BB2941 /* FactoryMethod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FactoryMethod; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED115BA1D2E32C900BB2941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FED115C11D2E32D700BB2941 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		FED115C31D2E351A00BB2941 /* FactoryMethodProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryMethodProtocol.h; sourceTree = "<group>"; };
+		FED115C41D2E486F00BB2941 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FED115C51D2E486F00BB2941 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		FED115CA1D2E48DA00BB2941 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		FED115CB1D2E48DA00BB2941 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		FED115CD1D2E48FE00BB2941 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		FED115CE1D2E48FE00BB2941 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		FED115D01D2E4EA600BB2941 /* StudentFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentFactory.h; sourceTree = "<group>"; };
+		FED115D11D2E4EA600BB2941 /* StudentFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentFactory.m; sourceTree = "<group>"; };
+		FED115D31D2E4EB700BB2941 /* TeacherFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherFactory.h; sourceTree = "<group>"; };
+		FED115D41D2E4EB700BB2941 /* TeacherFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FED115B41D2E32C900BB2941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FED115AE1D2E32C900BB2941 = {
+			isa = PBXGroup;
+			children = (
+				FED115B91D2E32C900BB2941 /* FactoryMethod */,
+				FED115B81D2E32C900BB2941 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FED115B81D2E32C900BB2941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FED115B71D2E32C900BB2941 /* FactoryMethod */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FED115B91D2E32C900BB2941 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				FED115C21D2E32F100BB2941 /* Classes */,
+				FED115BA1D2E32C900BB2941 /* main.m */,
+				FED115C11D2E32D700BB2941 /* ReadMe */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		FED115C21D2E32F100BB2941 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FED115C31D2E351A00BB2941 /* FactoryMethodProtocol.h */,
+				FED115D01D2E4EA600BB2941 /* StudentFactory.h */,
+				FED115D11D2E4EA600BB2941 /* StudentFactory.m */,
+				FED115D31D2E4EB700BB2941 /* TeacherFactory.h */,
+				FED115D41D2E4EB700BB2941 /* TeacherFactory.m */,
+				FED115C41D2E486F00BB2941 /* Person.h */,
+				FED115C51D2E486F00BB2941 /* Person.m */,
+				FED115CA1D2E48DA00BB2941 /* Student.h */,
+				FED115CB1D2E48DA00BB2941 /* Student.m */,
+				FED115CD1D2E48FE00BB2941 /* Teacher.h */,
+				FED115CE1D2E48FE00BB2941 /* Teacher.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FED115B61D2E32C900BB2941 /* FactoryMethod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED115BE1D2E32C900BB2941 /* Build configuration list for PBXNativeTarget "FactoryMethod" */;
+			buildPhases = (
+				FED115B31D2E32C900BB2941 /* Sources */,
+				FED115B41D2E32C900BB2941 /* Frameworks */,
+				FED115B51D2E32C900BB2941 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FactoryMethod;
+			productName = FactoryMethod;
+			productReference = FED115B71D2E32C900BB2941 /* FactoryMethod */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FED115AF1D2E32C900BB2941 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Aalen;
+				TargetAttributes = {
+					FED115B61D2E32C900BB2941 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FED115B21D2E32C900BB2941 /* Build configuration list for PBXProject "FactoryMethod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FED115AE1D2E32C900BB2941;
+			productRefGroup = FED115B81D2E32C900BB2941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FED115B61D2E32C900BB2941 /* FactoryMethod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FED115B31D2E32C900BB2941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED115CF1D2E48FE00BB2941 /* Teacher.m in Sources */,
+				FED115C61D2E486F00BB2941 /* Person.m in Sources */,
+				FED115BB1D2E32C900BB2941 /* main.m in Sources */,
+				FED115D21D2E4EA600BB2941 /* StudentFactory.m in Sources */,
+				FED115CC1D2E48DA00BB2941 /* Student.m in Sources */,
+				FED115D51D2E4EB700BB2941 /* TeacherFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FED115BC1D2E32C900BB2941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FED115BD1D2E32C900BB2941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FED115BF1D2E32C900BB2941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FED115C01D2E32C900BB2941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FED115B21D2E32C900BB2941 /* Build configuration list for PBXProject "FactoryMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED115BC1D2E32C900BB2941 /* Debug */,
+				FED115BD1D2E32C900BB2941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED115BE1D2E32C900BB2941 /* Build configuration list for PBXNativeTarget "FactoryMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED115BF1D2E32C900BB2941 /* Debug */,
+				FED115C01D2E32C900BB2941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FED115AF1D2E32C900BB2941 /* Project object */;
+}
