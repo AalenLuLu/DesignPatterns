@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Iterator/Iterator.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Composite/Composite.xcodeproj">
    </FileRef>
    <FileRef
