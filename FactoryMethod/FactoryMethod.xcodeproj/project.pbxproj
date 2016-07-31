@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE0D11141D4E4AE400402BD7 /* PizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D11131D4E4AE400402BD7 /* PizzaStore.m */; };
+		FE0D11171D4E4AF800402BD7 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D11161D4E4AF800402BD7 /* Pizza.m */; };
+		FE0D111A1D4E4C5800402BD7 /* StyleAPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D11191D4E4C5800402BD7 /* StyleAPizzaStore.m */; };
+		FE0D111D1D4E4C7300402BD7 /* StyleAPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D111C1D4E4C7300402BD7 /* StyleAPizza.m */; };
+		FE0D11201D4E4CE000402BD7 /* StyleBPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D111F1D4E4CE000402BD7 /* StyleBPizza.m */; };
+		FE0D11231D4E4D0200402BD7 /* StyleBPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D11221D4E4D0200402BD7 /* StyleBPizzaStore.m */; };
 		FED115BB1D2E32C900BB2941 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FED115BA1D2E32C900BB2941 /* main.m */; };
 		FED115C61D2E486F00BB2941 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FED115C51D2E486F00BB2941 /* Person.m */; };
 		FED115CC1D2E48DA00BB2941 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = FED115CB1D2E48DA00BB2941 /* Student.m */; };
@@ -28,6 +34,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE0D11121D4E4AE400402BD7 /* PizzaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaStore.h; sourceTree = "<group>"; };
+		FE0D11131D4E4AE400402BD7 /* PizzaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaStore.m; sourceTree = "<group>"; };
+		FE0D11151D4E4AF800402BD7 /* Pizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
+		FE0D11161D4E4AF800402BD7 /* Pizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+		FE0D11181D4E4C5800402BD7 /* StyleAPizzaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleAPizzaStore.h; sourceTree = "<group>"; };
+		FE0D11191D4E4C5800402BD7 /* StyleAPizzaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleAPizzaStore.m; sourceTree = "<group>"; };
+		FE0D111B1D4E4C7300402BD7 /* StyleAPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleAPizza.h; sourceTree = "<group>"; };
+		FE0D111C1D4E4C7300402BD7 /* StyleAPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleAPizza.m; sourceTree = "<group>"; };
+		FE0D111E1D4E4CE000402BD7 /* StyleBPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleBPizza.h; sourceTree = "<group>"; };
+		FE0D111F1D4E4CE000402BD7 /* StyleBPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleBPizza.m; sourceTree = "<group>"; };
+		FE0D11211D4E4D0200402BD7 /* StyleBPizzaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleBPizzaStore.h; sourceTree = "<group>"; };
+		FE0D11221D4E4D0200402BD7 /* StyleBPizzaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleBPizzaStore.m; sourceTree = "<group>"; };
 		FED115B71D2E32C900BB2941 /* FactoryMethod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FactoryMethod; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED115BA1D2E32C900BB2941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FED115C11D2E32D700BB2941 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
@@ -55,6 +73,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE0D11111D4E4AD100402BD7 /* Classes2 */ = {
+			isa = PBXGroup;
+			children = (
+				FE0D11151D4E4AF800402BD7 /* Pizza.h */,
+				FE0D11161D4E4AF800402BD7 /* Pizza.m */,
+				FE0D111B1D4E4C7300402BD7 /* StyleAPizza.h */,
+				FE0D111C1D4E4C7300402BD7 /* StyleAPizza.m */,
+				FE0D111E1D4E4CE000402BD7 /* StyleBPizza.h */,
+				FE0D111F1D4E4CE000402BD7 /* StyleBPizza.m */,
+				FE0D11121D4E4AE400402BD7 /* PizzaStore.h */,
+				FE0D11131D4E4AE400402BD7 /* PizzaStore.m */,
+				FE0D11181D4E4C5800402BD7 /* StyleAPizzaStore.h */,
+				FE0D11191D4E4C5800402BD7 /* StyleAPizzaStore.m */,
+				FE0D11211D4E4D0200402BD7 /* StyleBPizzaStore.h */,
+				FE0D11221D4E4D0200402BD7 /* StyleBPizzaStore.m */,
+			);
+			path = Classes2;
+			sourceTree = "<group>";
+		};
 		FED115AE1D2E32C900BB2941 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +111,7 @@
 		FED115B91D2E32C900BB2941 /* FactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
+				FE0D11111D4E4AD100402BD7 /* Classes2 */,
 				FED115C21D2E32F100BB2941 /* Classes */,
 				FED115BA1D2E32C900BB2941 /* main.m */,
 				FED115C11D2E32D700BB2941 /* ReadMe */,
@@ -155,9 +193,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE0D111A1D4E4C5800402BD7 /* StyleAPizzaStore.m in Sources */,
+				FE0D11171D4E4AF800402BD7 /* Pizza.m in Sources */,
 				FED115CF1D2E48FE00BB2941 /* Teacher.m in Sources */,
+				FE0D11141D4E4AE400402BD7 /* PizzaStore.m in Sources */,
 				FED115C61D2E486F00BB2941 /* Person.m in Sources */,
+				FE0D11201D4E4CE000402BD7 /* StyleBPizza.m in Sources */,
 				FED115BB1D2E32C900BB2941 /* main.m in Sources */,
+				FE0D11231D4E4D0200402BD7 /* StyleBPizzaStore.m in Sources */,
+				FE0D111D1D4E4C7300402BD7 /* StyleAPizza.m in Sources */,
 				FED115D21D2E4EA600BB2941 /* StudentFactory.m in Sources */,
 				FED115CC1D2E48DA00BB2941 /* Student.m in Sources */,
 				FED115D51D2E4EB700BB2941 /* TeacherFactory.m in Sources */,
@@ -281,6 +325,7 @@
 				FED115C01D2E32C900BB2941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

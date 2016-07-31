@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE0D10FB1D4E440900402BD7 /* Baverage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D10FA1D4E440900402BD7 /* Baverage.m */; };
+		FE0D10FE1D4E445100402BD7 /* Espresso.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D10FD1D4E445100402BD7 /* Espresso.m */; };
+		FE0D11041D4E464700402BD7 /* CondimentDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D11031D4E464700402BD7 /* CondimentDecorator.m */; };
+		FE0D11071D4E479500402BD7 /* Mocha.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D11061D4E479500402BD7 /* Mocha.m */; };
+		FE0D110A1D4E492A00402BD7 /* Milk.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D11091D4E492A00402BD7 /* Milk.m */; };
+		FE0D110D1D4E49C100402BD7 /* HouseBlend.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D110C1D4E49C100402BD7 /* HouseBlend.m */; };
+		FE0D11101D4E4A0300402BD7 /* Soy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D110F1D4E4A0300402BD7 /* Soy.m */; };
 		FEDBA1911D2B92A00098E5EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDBA1901D2B92A00098E5EB /* main.m */; };
 		FEDBA19C1D2B9B600098E5EB /* ConcreteComponentPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDBA19B1D2B9B600098E5EB /* ConcreteComponentPerson.m */; };
 		FEDBA19F1D2B9E410098E5EB /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDBA19E1D2B9E410098E5EB /* Decorator.m */; };
@@ -30,6 +37,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE0D10F91D4E440900402BD7 /* Baverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Baverage.h; sourceTree = "<group>"; };
+		FE0D10FA1D4E440900402BD7 /* Baverage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Baverage.m; sourceTree = "<group>"; };
+		FE0D10FC1D4E445100402BD7 /* Espresso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Espresso.h; sourceTree = "<group>"; };
+		FE0D10FD1D4E445100402BD7 /* Espresso.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Espresso.m; sourceTree = "<group>"; };
+		FE0D11021D4E464700402BD7 /* CondimentDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CondimentDecorator.h; sourceTree = "<group>"; };
+		FE0D11031D4E464700402BD7 /* CondimentDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CondimentDecorator.m; sourceTree = "<group>"; };
+		FE0D11051D4E479500402BD7 /* Mocha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mocha.h; sourceTree = "<group>"; };
+		FE0D11061D4E479500402BD7 /* Mocha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mocha.m; sourceTree = "<group>"; };
+		FE0D11081D4E492A00402BD7 /* Milk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Milk.h; sourceTree = "<group>"; };
+		FE0D11091D4E492A00402BD7 /* Milk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Milk.m; sourceTree = "<group>"; };
+		FE0D110B1D4E49C100402BD7 /* HouseBlend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseBlend.h; sourceTree = "<group>"; };
+		FE0D110C1D4E49C100402BD7 /* HouseBlend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseBlend.m; sourceTree = "<group>"; };
+		FE0D110E1D4E4A0300402BD7 /* Soy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soy.h; sourceTree = "<group>"; };
+		FE0D110F1D4E4A0300402BD7 /* Soy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soy.m; sourceTree = "<group>"; };
 		FEDBA18D1D2B92A00098E5EB /* Decorator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Decorator; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDBA1901D2B92A00098E5EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEDBA1971D2B94F80098E5EB /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
@@ -61,6 +82,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE0D10F81D4E43DB00402BD7 /* Classes2 */ = {
+			isa = PBXGroup;
+			children = (
+				FE0D10F91D4E440900402BD7 /* Baverage.h */,
+				FE0D10FA1D4E440900402BD7 /* Baverage.m */,
+				FE0D11021D4E464700402BD7 /* CondimentDecorator.h */,
+				FE0D11031D4E464700402BD7 /* CondimentDecorator.m */,
+				FE0D10FC1D4E445100402BD7 /* Espresso.h */,
+				FE0D10FD1D4E445100402BD7 /* Espresso.m */,
+				FE0D110B1D4E49C100402BD7 /* HouseBlend.h */,
+				FE0D110C1D4E49C100402BD7 /* HouseBlend.m */,
+				FE0D11051D4E479500402BD7 /* Mocha.h */,
+				FE0D11061D4E479500402BD7 /* Mocha.m */,
+				FE0D11081D4E492A00402BD7 /* Milk.h */,
+				FE0D11091D4E492A00402BD7 /* Milk.m */,
+				FE0D110E1D4E4A0300402BD7 /* Soy.h */,
+				FE0D110F1D4E4A0300402BD7 /* Soy.m */,
+			);
+			path = Classes2;
+			sourceTree = "<group>";
+		};
 		FEDBA1841D2B92A00098E5EB = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +122,7 @@
 		FEDBA18F1D2B92A00098E5EB /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
+				FE0D10F81D4E43DB00402BD7 /* Classes2 */,
 				FEDBA1981D2B9AF00098E5EB /* Classes */,
 				FEDBA1901D2B92A00098E5EB /* main.m */,
 				FEDBA1971D2B94F80098E5EB /* ReadMe */,
@@ -165,13 +208,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE0D110A1D4E492A00402BD7 /* Milk.m in Sources */,
 				FEDBA1A21D2BA2ED0098E5EB /* ShirtDecorator.m in Sources */,
 				FEDBA1911D2B92A00098E5EB /* main.m in Sources */,
+				FE0D11101D4E4A0300402BD7 /* Soy.m in Sources */,
 				FEDBA1AB1D2BA34E0098E5EB /* SuitDecorator.m in Sources */,
 				FEDBA1A51D2BA31C0098E5EB /* ThousersDecorator.m in Sources */,
 				FEDBA19C1D2B9B600098E5EB /* ConcreteComponentPerson.m in Sources */,
 				FEDBA1A81D2BA3310098E5EB /* ShoesDecorator.m in Sources */,
+				FE0D11071D4E479500402BD7 /* Mocha.m in Sources */,
 				FEDBA1AE1D2BA3630098E5EB /* TieDecorator.m in Sources */,
+				FE0D10FE1D4E445100402BD7 /* Espresso.m in Sources */,
+				FE0D10FB1D4E440900402BD7 /* Baverage.m in Sources */,
+				FE0D11041D4E464700402BD7 /* CondimentDecorator.m in Sources */,
+				FE0D110D1D4E49C100402BD7 /* HouseBlend.m in Sources */,
 				FEDBA19F1D2B9E410098E5EB /* Decorator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +343,7 @@
 				FEDBA1961D2B92A00098E5EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
