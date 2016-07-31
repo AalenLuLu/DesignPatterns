@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Interpreter/Interpreter.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Flyweight/Flyweight.xcodeproj">
    </FileRef>
    <FileRef
