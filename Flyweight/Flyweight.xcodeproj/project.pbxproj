@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE0D11261D4E56CE00402BD7 /* Flyweight.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D11251D4E56CE00402BD7 /* Flyweight.m */; };
+		FE0D11291D4E577D00402BD7 /* ConcreteFlyweight.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D11281D4E577D00402BD7 /* ConcreteFlyweight.m */; };
+		FE0D112C1D4E578C00402BD7 /* UnsharedConcreteFlyweight.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D112B1D4E578C00402BD7 /* UnsharedConcreteFlyweight.m */; };
+		FE0D112F1D4E57A800402BD7 /* FlyweightFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D112E1D4E57A800402BD7 /* FlyweightFactory.m */; };
 		FE99A11E1D4BC6BB0094B0E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE99A11D1D4BC6BB0094B0E0 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE0D11241D4E56CE00402BD7 /* Flyweight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flyweight.h; sourceTree = "<group>"; };
+		FE0D11251D4E56CE00402BD7 /* Flyweight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flyweight.m; sourceTree = "<group>"; };
+		FE0D11271D4E577D00402BD7 /* ConcreteFlyweight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteFlyweight.h; sourceTree = "<group>"; };
+		FE0D11281D4E577D00402BD7 /* ConcreteFlyweight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteFlyweight.m; sourceTree = "<group>"; };
+		FE0D112A1D4E578C00402BD7 /* UnsharedConcreteFlyweight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnsharedConcreteFlyweight.h; sourceTree = "<group>"; };
+		FE0D112B1D4E578C00402BD7 /* UnsharedConcreteFlyweight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnsharedConcreteFlyweight.m; sourceTree = "<group>"; };
+		FE0D112D1D4E57A800402BD7 /* FlyweightFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyweightFactory.h; sourceTree = "<group>"; };
+		FE0D112E1D4E57A800402BD7 /* FlyweightFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyweightFactory.m; sourceTree = "<group>"; };
 		FE99A11A1D4BC6BB0094B0E0 /* Flyweight */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Flyweight; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE99A11D1D4BC6BB0094B0E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE99A1241D4BC6D60094B0E0 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
@@ -68,6 +80,14 @@
 		FE99A1251D4BC6EB0094B0E0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FE0D11241D4E56CE00402BD7 /* Flyweight.h */,
+				FE0D11251D4E56CE00402BD7 /* Flyweight.m */,
+				FE0D11271D4E577D00402BD7 /* ConcreteFlyweight.h */,
+				FE0D11281D4E577D00402BD7 /* ConcreteFlyweight.m */,
+				FE0D112A1D4E578C00402BD7 /* UnsharedConcreteFlyweight.h */,
+				FE0D112B1D4E578C00402BD7 /* UnsharedConcreteFlyweight.m */,
+				FE0D112D1D4E57A800402BD7 /* FlyweightFactory.h */,
+				FE0D112E1D4E57A800402BD7 /* FlyweightFactory.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -129,6 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE99A11E1D4BC6BB0094B0E0 /* main.m in Sources */,
+				FE0D11291D4E577D00402BD7 /* ConcreteFlyweight.m in Sources */,
+				FE0D112C1D4E578C00402BD7 /* UnsharedConcreteFlyweight.m in Sources */,
+				FE0D112F1D4E57A800402BD7 /* FlyweightFactory.m in Sources */,
+				FE0D11261D4E56CE00402BD7 /* Flyweight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +273,7 @@
 				FE99A1231D4BC6BB0094B0E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
