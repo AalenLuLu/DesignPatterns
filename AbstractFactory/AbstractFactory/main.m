@@ -13,7 +13,12 @@
 //#import "PlanOneProductFactory.h"
 //#import "PlanTwoProductFactory.h"
 
-#import "FactoryReflection.h"
+//反射抽象工厂例子...
+//#import "FactoryReflection.h"
+
+#import "Pizza.h"
+#import "StyleAPizzaStore.h"
+#import "StyleBPizzaStore.h"
 
 int main(int argc, const char * argv[]) {
 	@autoreleasepool {
@@ -35,12 +40,23 @@ int main(int argc, const char * argv[]) {
 		*/
 		
 		//反射抽象工厂
+		/*
 		FactoryReflection *factory = [[FactoryReflection alloc] initWithPlan: @"One"];
 		id<ProductAProtocol> productAOne = [factory createProductA];
 		id<ProductBProtocol> productBOne = [factory createProductB];
 		
 		[productAOne showA];
 		[productBOne showB];
+		*/
+		
+		StyleAPizzaStore *styleAPizzaStore = [[StyleAPizzaStore alloc] init];
+		StyleBPizzaStore *styleBPizzaStore = [[StyleBPizzaStore alloc] init];
+		
+		Pizza *pizza1 = [styleAPizzaStore orderPizza];
+		NSLog(@"I order %@", [pizza1 description]);
+		
+		Pizza *pizza2 = [styleBPizzaStore orderPizza];
+		NSLog(@"I order %@", [pizza2 description]);
 	}
     return 0;
 }
