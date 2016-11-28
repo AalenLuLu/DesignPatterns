@@ -8,16 +8,29 @@
 
 #import "AbstractClass.h"
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wincomplete-implementation"
 @implementation AbstractClass
+#pragma clang diagnostic pop
 
+#pragma mark final, cannot modify
 - (void)templateMethod
 {
-	NSLog(@"test template answer: %@", [self dynamicOperation]);
+	[self beforeHook];
+	[self step1];
+	[self step2];
+	[self step3];
+	[self afterHook];
 }
 
-- (NSString *)dynamicOperation
+- (void)beforeHook
 {
-	return nil;
+	
+}
+
+- (void)afterHook
+{
+	
 }
 
 @end

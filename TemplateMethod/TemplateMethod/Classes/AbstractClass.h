@@ -11,6 +11,10 @@
 @interface AbstractClass : NSObject
 
 - (void)templateMethod;
-- (NSString *)dynamicOperation;
+- (void)step1;		//abstract...subclass must override
+- (void)step2;		//abstract...subclass must override
+- (void)step3;		//abstract...subclass must override
+- (void)beforeHook;	//subclass can override
+- (void)afterHook;	//subclass can override
 
 @end

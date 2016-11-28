@@ -10,9 +10,24 @@
 
 @implementation ConcreteClassB
 
-- (NSString *)dynamicOperation
+- (void)step1
 {
-	return @"bbbb";
+	NSLog(@"%@, %s", self, __func__);
+}
+
+- (void)step2
+{
+	NSLog(@"%@, %s", self, __func__);
+}
+
+- (void)step3
+{
+	NSLog(@"%@, %s", self, __func__);
+}
+
+- (void)afterHook
+{
+	NSLog(@"%@, %s", self, __func__);
 }
 
 @end
